@@ -8,6 +8,8 @@ class Tree : public State{
 public:
     Tree();
     State* play(bool neighbourIsBurning) override;
+
+    bool get5050();
 };
 
 
