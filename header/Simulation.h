@@ -7,11 +7,14 @@
 
 class Simulation {
 private:
-    Grid* grid;
+    Grid* grid1;
+    Grid *grid2;
 public:
     Simulation();
     void start();
     std::string getUserInput();
+
+    void play(bool isGrid1);
 };
 
 

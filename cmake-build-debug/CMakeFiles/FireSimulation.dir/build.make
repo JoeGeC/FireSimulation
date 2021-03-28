@@ -194,23 +194,23 @@ CMakeFiles\FireSimulation.dir\source\Simulation.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FireSimulation.dir\source\Simulation.cpp.s /c C:\Users\joejo\CLionProjects\FireSimulation\source\Simulation.cpp
 <<
 
-CMakeFiles\FireSimulation.dir\header\State.cpp.obj: CMakeFiles\FireSimulation.dir\flags.make
-CMakeFiles\FireSimulation.dir\header\State.cpp.obj: ..\header\State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joejo\CLionProjects\FireSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FireSimulation.dir/header/State.cpp.obj"
+CMakeFiles\FireSimulation.dir\source\State.cpp.obj: CMakeFiles\FireSimulation.dir\flags.make
+CMakeFiles\FireSimulation.dir\source\State.cpp.obj: ..\source\State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joejo\CLionProjects\FireSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FireSimulation.dir/source/State.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\FireSimulation.dir\header\State.cpp.obj /FdCMakeFiles\FireSimulation.dir\ /FS -c C:\Users\joejo\CLionProjects\FireSimulation\header\State.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\FireSimulation.dir\source\State.cpp.obj /FdCMakeFiles\FireSimulation.dir\ /FS -c C:\Users\joejo\CLionProjects\FireSimulation\source\State.cpp
 <<
 
-CMakeFiles\FireSimulation.dir\header\State.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FireSimulation.dir/header/State.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86\cl.exe > CMakeFiles\FireSimulation.dir\header\State.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joejo\CLionProjects\FireSimulation\header\State.cpp
+CMakeFiles\FireSimulation.dir\source\State.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FireSimulation.dir/source/State.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86\cl.exe > CMakeFiles\FireSimulation.dir\source\State.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joejo\CLionProjects\FireSimulation\source\State.cpp
 <<
 
-CMakeFiles\FireSimulation.dir\header\State.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FireSimulation.dir/header/State.cpp.s"
+CMakeFiles\FireSimulation.dir\source\State.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FireSimulation.dir/source/State.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FireSimulation.dir\header\State.cpp.s /c C:\Users\joejo\CLionProjects\FireSimulation\header\State.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FireSimulation.dir\source\State.cpp.s /c C:\Users\joejo\CLionProjects\FireSimulation\source\State.cpp
 <<
 
 # Object files for target FireSimulation
@@ -222,7 +222,7 @@ FireSimulation_OBJECTS = \
 "CMakeFiles\FireSimulation.dir\source\Tree.cpp.obj" \
 "CMakeFiles\FireSimulation.dir\source\Burning.cpp.obj" \
 "CMakeFiles\FireSimulation.dir\source\Simulation.cpp.obj" \
-"CMakeFiles\FireSimulation.dir\header\State.cpp.obj"
+"CMakeFiles\FireSimulation.dir\source\State.cpp.obj"
 
 # External object files for target FireSimulation
 FireSimulation_EXTERNAL_OBJECTS =
@@ -234,7 +234,7 @@ FireSimulation.exe: CMakeFiles\FireSimulation.dir\source\Empty.cpp.obj
 FireSimulation.exe: CMakeFiles\FireSimulation.dir\source\Tree.cpp.obj
 FireSimulation.exe: CMakeFiles\FireSimulation.dir\source\Burning.cpp.obj
 FireSimulation.exe: CMakeFiles\FireSimulation.dir\source\Simulation.cpp.obj
-FireSimulation.exe: CMakeFiles\FireSimulation.dir\header\State.cpp.obj
+FireSimulation.exe: CMakeFiles\FireSimulation.dir\source\State.cpp.obj
 FireSimulation.exe: CMakeFiles\FireSimulation.dir\build.make
 FireSimulation.exe: CMakeFiles\FireSimulation.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\joejo\CLionProjects\FireSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable FireSimulation.exe"

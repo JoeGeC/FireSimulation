@@ -6,21 +6,14 @@
 
 class Cell {
 private:
-    State* state;
+    State* currentState;
 
 public:
-    Cell();
     void play(bool isNeighbourBurning);
-
-    Cell(State *state);
-
+    Cell(State *currentState);
     void changeState(State *newState);
-
     bool isBurning();
-
     char getIcon();
-
-    bool isDifferentState(State *otherState);
 };
 
 

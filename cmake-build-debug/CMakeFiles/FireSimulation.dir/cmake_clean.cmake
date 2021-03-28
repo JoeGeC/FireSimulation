@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FireSimulation.dir/header/State.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Burning.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Cell.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Empty.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Grid.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Simulation.cpp.obj"
+  "CMakeFiles/FireSimulation.dir/source/State.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Tree.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/main.cpp.obj"
   "FireSimulation.exe"

@@ -11,15 +11,12 @@ private:
     static const int gridSize = 21;
     std::vector<std::vector<Cell*>> grid;
     Cell* createCellFromPosition(int row, int column);
-    void replaceCell(int x, int y, Cell *replacementCell);
 
 public:
     Grid();
     void print();
     void startFire();
-
-    void play();
-
+    void play(Grid *pGrid);
     bool isNeighbourBurning(int row, int column);
 };
 

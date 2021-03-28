@@ -6,6 +6,7 @@ class State {
 public:
     char icon;
     virtual State* play(bool isNeighbourBurning) = 0;
+    virtual ~State();
 };
 
 

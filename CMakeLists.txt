@@ -16,5 +16,5 @@ add_executable(FireSimulation source/main.cpp
         header/Burning.h
         source/Simulation.cpp
         header/Simulation.h
-        header/State.cpp
+        source/State.cpp
         header/State.h)

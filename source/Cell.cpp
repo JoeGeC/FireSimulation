@@ -1,31 +1,24 @@
 #include "../header/Cell.h"
-#include "../header/Burning.h"
+#include "../header/Empty.h"
 
-Cell::Cell(State *state) {
-    this->state = state;
+Cell::Cell(State *currentState) {
+    this->currentState = currentState;
 }
 
 void Cell::changeState(State *newState) {
-//    delete(state);
-    state = newState;
+    currentState = newState;
 }
 
 void Cell::play(bool isNeighbourBurning) {
-    State* newState = state->play(isNeighbourBurning);
-    if(isDifferentState(newState)) changeState(newState);
-//    else delete(newState);
+    State* newState = currentState->play(isNeighbourBurning);
+    changeState(newState);
 }
 
 bool Cell::isBurning() {
-    if(dynamic_cast<const Burning*>(state) != nullptr) return true;
+    if(currentState->icon == 'x') return true;
     return false;
 }
 
 char Cell::getIcon() {
-    return state->icon;
-}
-
-bool Cell::isDifferentState(State *otherState) {
-    if(otherState->icon == getIcon()) return false;
-    return true;
+    return currentState->icon;
 }
