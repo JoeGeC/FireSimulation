@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/joejo/CLionProjects/FireSimulation/header/Cell.h
+
+C:/Users/joejo/CLionProjects/FireSimulation/header/Empty.h
+Cell.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Cell.h
+
+C:/Users/joejo/CLionProjects/FireSimulation/header/Grid.h
+vector
+-
+Cell.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Cell.h
+Tree.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Tree.h
+
+C:/Users/joejo/CLionProjects/FireSimulation/header/Tree.h
+Cell.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Cell.h
+
+C:/Users/joejo/CLionProjects/FireSimulation/source/Grid.cpp
+iostream
+-
+../header/Grid.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Grid.h
+../header/Empty.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Empty.h
+
