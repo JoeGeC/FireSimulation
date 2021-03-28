@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FireSimulation.dir/header/Simulation.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Burning.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Cell.cpp.obj"
   "CMakeFiles/FireSimulation.dir/source/Empty.cpp.obj"

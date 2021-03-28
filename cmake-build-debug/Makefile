@@ -127,6 +127,33 @@ FireSimulation\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\build
 .PHONY : FireSimulation\fast
 
+header\Simulation.obj: header\Simulation.cpp.obj
+
+.PHONY : header\Simulation.obj
+
+# target to build an object file
+header\Simulation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\Simulation.cpp.obj
+.PHONY : header\Simulation.cpp.obj
+
+header\Simulation.i: header\Simulation.cpp.i
+
+.PHONY : header\Simulation.i
+
+# target to preprocess a source file
+header\Simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\Simulation.cpp.i
+.PHONY : header\Simulation.cpp.i
+
+header\Simulation.s: header\Simulation.cpp.s
+
+.PHONY : header\Simulation.s
+
+# target to generate assembly for a file
+header\Simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\Simulation.cpp.s
+.PHONY : header\Simulation.cpp.s
+
 source\Burning.obj: source\Burning.cpp.obj
 
 .PHONY : source\Burning.obj
@@ -298,6 +325,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FireSimulation
+	@echo ... header/Simulation.obj
+	@echo ... header/Simulation.i
+	@echo ... header/Simulation.s
 	@echo ... source/Burning.obj
 	@echo ... source/Burning.i
 	@echo ... source/Burning.s

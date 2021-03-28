@@ -13,4 +13,4 @@ add_executable(FireSimulation source/main.cpp
         header/Cell.h
         header/Empty.h
         header/Tree.h
-        header/Burning.h)
+        header/Burning.h source/Simulation.cpp header/Simulation.h)

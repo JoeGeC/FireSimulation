@@ -23,6 +23,7 @@ CMakeFiles\FireSimulation.dir\source\Tree.cpp.obj: ..\header\Tree.h
 CMakeFiles\FireSimulation.dir\source\Tree.cpp.obj: ..\source\Tree.cpp
 
 CMakeFiles\FireSimulation.dir\source\main.cpp.obj: ..\header\Cell.h
+CMakeFiles\FireSimulation.dir\source\main.cpp.obj: ..\header\Empty.h
 CMakeFiles\FireSimulation.dir\source\main.cpp.obj: ..\header\Grid.h
 CMakeFiles\FireSimulation.dir\source\main.cpp.obj: ..\header\Tree.h
 CMakeFiles\FireSimulation.dir\source\main.cpp.obj: ..\source\main.cpp

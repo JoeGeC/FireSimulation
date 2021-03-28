@@ -96,6 +96,12 @@
 		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Grid.h">
 			<Option target="FireSimulation"/>
 		</Unit>
+		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Simulation.cpp">
+			<Option target="FireSimulation"/>
+		</Unit>
+		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Simulation.h">
+			<Option target="FireSimulation"/>
+		</Unit>
 		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Tree.h">
 			<Option target="FireSimulation"/>
 		</Unit>

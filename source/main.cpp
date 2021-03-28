@@ -1,7 +1,10 @@
+#include <iostream>
 #include "../header/Grid.h"
+#include "../header/Simulation.h"
 
 int main() {
-    Grid* grid = new Grid();
-    grid->print();
+    auto* simulation = new Simulation();
+    simulation->start();
     return 0;
 }
+
