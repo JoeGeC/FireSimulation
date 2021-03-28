@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/joejo/CLionProjects/FireSimulation/header/Burning.h
+Cell.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Cell.h
+
 C:/Users/joejo/CLionProjects/FireSimulation/header/Cell.h
 State.h
 C:/Users/joejo/CLionProjects/FireSimulation/header/State.h
@@ -38,7 +42,27 @@ C:/Users/joejo/CLionProjects/FireSimulation/header/Tree.h
 Cell.h
 C:/Users/joejo/CLionProjects/FireSimulation/header/Cell.h
 
+C:/Users/joejo/CLionProjects/FireSimulation/source/Cell.cpp
+../header/Cell.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Cell.h
+
+C:/Users/joejo/CLionProjects/FireSimulation/source/Grid.cpp
+iostream
+-
+../header/Grid.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Grid.h
+../header/Burning.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Burning.h
+
 C:/Users/joejo/CLionProjects/FireSimulation/source/Simulation.cpp
+../header/Simulation.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Simulation.h
+
+C:/Users/joejo/CLionProjects/FireSimulation/source/main.cpp
+iostream
+-
+../header/Grid.h
+C:/Users/joejo/CLionProjects/FireSimulation/header/Grid.h
 ../header/Simulation.h
 C:/Users/joejo/CLionProjects/FireSimulation/header/Simulation.h
 

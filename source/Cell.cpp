@@ -1,5 +1,4 @@
 #include "../header/Cell.h"
-#include "../header/Empty.h"
 
 Cell::Cell(State *currentState) {
     this->currentState = currentState;

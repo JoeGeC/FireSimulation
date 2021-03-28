@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../header/Grid.h"
 #include "../header/Simulation.h"
 
@@ -7,4 +6,3 @@ int main() {
     simulation->start();
     return 0;
 }
-

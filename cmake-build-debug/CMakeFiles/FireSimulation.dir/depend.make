@@ -8,7 +8,6 @@ CMakeFiles\FireSimulation.dir\source\Burning.cpp.obj: ..\header\State.h
 CMakeFiles\FireSimulation.dir\source\Burning.cpp.obj: ..\source\Burning.cpp
 
 CMakeFiles\FireSimulation.dir\source\Cell.cpp.obj: ..\header\Cell.h
-CMakeFiles\FireSimulation.dir\source\Cell.cpp.obj: ..\header\Empty.h
 CMakeFiles\FireSimulation.dir\source\Cell.cpp.obj: ..\header\State.h
 CMakeFiles\FireSimulation.dir\source\Cell.cpp.obj: ..\source\Cell.cpp
 

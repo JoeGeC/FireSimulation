@@ -29,7 +29,6 @@ Cell* Grid::createCellFromPosition(int row, int column) {
 void Grid::startFire() {
     Cell* cell = grid[gridSize / 2][gridSize / 2];
     cell->changeState(new Burning());
-    cell->changeState(new Burning());
 }
 
 void Grid::play(Grid *otherGrid) {
