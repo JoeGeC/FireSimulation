@@ -96,10 +96,13 @@
 		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Grid.h">
 			<Option target="FireSimulation"/>
 		</Unit>
-		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Simulation.cpp">
+		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Simulation.h">
 			<Option target="FireSimulation"/>
 		</Unit>
-		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Simulation.h">
+		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/State.cpp">
+			<Option target="FireSimulation"/>
+		</Unit>
+		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/State.h">
 			<Option target="FireSimulation"/>
 		</Unit>
 		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/header/Tree.h">
@@ -115,6 +118,9 @@
 			<Option target="FireSimulation"/>
 		</Unit>
 		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/source/Grid.cpp">
+			<Option target="FireSimulation"/>
+		</Unit>
+		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/source/Simulation.cpp">
 			<Option target="FireSimulation"/>
 		</Unit>
 		<Unit filename="C:/Users/joejo/CLionProjects/FireSimulation/source/Tree.cpp">

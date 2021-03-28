@@ -17,6 +17,10 @@ public:
     Grid();
     void print();
     void startFire();
+
+    void play();
+
+    bool isNeighbourBurning(int row, int column);
 };
 
 

@@ -8,8 +8,8 @@ Simulation::Simulation() {
 
 void Simulation::start() {
     while(true){
-
-
+        grid->play();
+        grid->print();
         if(getUserInput() == "q") return;
     }
 }

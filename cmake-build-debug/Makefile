@@ -127,32 +127,32 @@ FireSimulation\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\build
 .PHONY : FireSimulation\fast
 
-header\Simulation.obj: header\Simulation.cpp.obj
+header\State.obj: header\State.cpp.obj
 
-.PHONY : header\Simulation.obj
+.PHONY : header\State.obj
 
 # target to build an object file
-header\Simulation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\Simulation.cpp.obj
-.PHONY : header\Simulation.cpp.obj
+header\State.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\State.cpp.obj
+.PHONY : header\State.cpp.obj
 
-header\Simulation.i: header\Simulation.cpp.i
+header\State.i: header\State.cpp.i
 
-.PHONY : header\Simulation.i
+.PHONY : header\State.i
 
 # target to preprocess a source file
-header\Simulation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\Simulation.cpp.i
-.PHONY : header\Simulation.cpp.i
+header\State.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\State.cpp.i
+.PHONY : header\State.cpp.i
 
-header\Simulation.s: header\Simulation.cpp.s
+header\State.s: header\State.cpp.s
 
-.PHONY : header\Simulation.s
+.PHONY : header\State.s
 
 # target to generate assembly for a file
-header\Simulation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\Simulation.cpp.s
-.PHONY : header\Simulation.cpp.s
+header\State.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\header\State.cpp.s
+.PHONY : header\State.cpp.s
 
 source\Burning.obj: source\Burning.cpp.obj
 
@@ -262,6 +262,33 @@ source\Grid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\source\Grid.cpp.s
 .PHONY : source\Grid.cpp.s
 
+source\Simulation.obj: source\Simulation.cpp.obj
+
+.PHONY : source\Simulation.obj
+
+# target to build an object file
+source\Simulation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\source\Simulation.cpp.obj
+.PHONY : source\Simulation.cpp.obj
+
+source\Simulation.i: source\Simulation.cpp.i
+
+.PHONY : source\Simulation.i
+
+# target to preprocess a source file
+source\Simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\source\Simulation.cpp.i
+.PHONY : source\Simulation.cpp.i
+
+source\Simulation.s: source\Simulation.cpp.s
+
+.PHONY : source\Simulation.s
+
+# target to generate assembly for a file
+source\Simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireSimulation.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FireSimulation.dir\source\Simulation.cpp.s
+.PHONY : source\Simulation.cpp.s
+
 source\Tree.obj: source\Tree.cpp.obj
 
 .PHONY : source\Tree.obj
@@ -325,9 +352,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... FireSimulation
-	@echo ... header/Simulation.obj
-	@echo ... header/Simulation.i
-	@echo ... header/Simulation.s
+	@echo ... header/State.obj
+	@echo ... header/State.i
+	@echo ... header/State.s
 	@echo ... source/Burning.obj
 	@echo ... source/Burning.i
 	@echo ... source/Burning.s
@@ -340,6 +367,9 @@ help:
 	@echo ... source/Grid.obj
 	@echo ... source/Grid.i
 	@echo ... source/Grid.s
+	@echo ... source/Simulation.obj
+	@echo ... source/Simulation.i
+	@echo ... source/Simulation.s
 	@echo ... source/Tree.obj
 	@echo ... source/Tree.i
 	@echo ... source/Tree.s

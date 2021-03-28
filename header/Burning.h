@@ -4,9 +4,10 @@
 
 #include "Cell.h"
 
-class Burning : public Cell {
+class Burning : public State {
 public:
     Burning();
+    State* play(bool isNeighbourBurning) override;
 };
 
 
